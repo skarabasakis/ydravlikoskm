@@ -1,0 +1,323 @@
+/*body{
+background: #fff;
+color:#848484;
+}
+
+#main{
+background: #fff url(../images/skin1/bg.jpg) no-repeat 0px 0px;
+}*/
+
+body{
+/*background: url(../images/skin1/body_bg.jpg) repeat 0px 0px;*/
+background: #00AEEF;
+color:#fff;
+}
+
+#main{
+background: url(../images/skin1/high_bg_trans.png) no-repeat 0px 0px;
+}
+
+.box{
+border-right:1px solid #ccc;
+}
+
+/*********************************************************************************************************
+2.) Head Area: 
+**********************************************************************************************************/	
+#head{
+border-bottom:1px solid #ccc;
+}
+
+#top .logo a{
+background: transparent url(../images/skin1/logo.png) repeat-x top left;
+}
+.facebook a {
+	background: transparent url(../images/skin1/facebook.png) no-repeat top left;
+}
+.facebook a:hover {
+	background: transparent url(../images/skin1/facebook.png) no-repeat bottom left;
+}
+
+
+/*image slider*/
+#featured{
+border-bottom:1px solid #ccc;
+background: transparent url(../images/skin1/arrows.png) no-repeat center left;
+}
+
+.featured_item .item_caption {
+width: 36%;
+margin:5px auto;
+background: #fff;
+background: rgba(255,255,255,0.6);
+color: #000 !important;
+padding:2px 5px;
+font-weight:bold;
+border-radius:6px;
+-webkit-transition: all 400ms ease-in;
+-moz-transition:    all 400ms ease-in;
+-o-transition:      all 400ms ease-in;
+-ms-transition:     all 400ms ease-in;
+transition:         all 400ms ease-in;
+margin: -40px 32% 0px;
+z-index:10;
+position:absolute;
+
+}
+
+.featured_item, .gallery-icon img {
+box-shadow: 0px 0px 5px #004;
+-webkit-transition: box-shadow 400ms ease-out, 
+                    -webkit-transform 400ms ease-out;
+-moz-transition:    box-shadow 400ms ease-out, 
+                    -moz-transform 400ms ease-out;
+-o-transition:      box-shadow 400ms ease-out, 
+                    -o-transform 400ms ease-out;
+transition:         box-shadow 400ms ease-out, 
+                    -webkit-transform 400ms ease-out,
+                    -moz-transform 400ms ease-out,
+                    -o-transform 400ms ease-out;
+}
+
+.featured_item:hover, .gallery-icon:hover img {
+-moz-transform: scale(1.03);
+-webkit-transform: scale(1.03);
+-o-transform: scale(1.03);
+}
+
+.gallery-icon:hover img {
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+}
+
+.featured_item:hover .item_caption {
+color: #fff !important;
+background: rgb(0,63,87);
+background: rgba(0,63,87,0.8);
+}
+
+.item, .wrapper img{
+border:1px solid #ddd;
+background: #fff;
+}
+
+.additional_info{
+border-bottom:1px solid #ccc;
+}
+.additional_info h2 a{
+color:#222;
+}
+
+.additional_info h2 a:hover{
+color:#5a5a5a;
+}
+
+#twitterbox{
+background: transparent url(../images/skin1/twitter.png) no-repeat 5px 10px;
+}
+
+
+#top #nav > li {
+border-bottom: 1px solid #ccc;
+-webkit-transition: all 400ms ease-in;
+-moz-transition:    all 400ms ease-in;
+-o-transition:      all 400ms ease-in;
+-ms-transition:     all 400ms ease-in;
+transition:         all 400ms ease-in;
+}
+
+#top #nav > li:hover {
+background: rgb(0,63,87);
+border-bottom: 8px solid #ccc;
+}
+
+#top #nav > li:hover a {
+color: #fff;
+}
+
+
+#top #nav li ul a{
+background: #111;
+border-bottom:1px solid #ccc;
+top:2px;
+left:2px;
+}
+
+#top #nav li ul a:hover{
+color:#fff;
+background:rgb(0,63,87);
+}
+
+#top #nav li ul ul {
+border-top:1px solid rgb(0,63,87);
+}
+
+/*********************************************************************************************************
+3.) Additional info Area: 
+**********************************************************************************************************/	
+
+.additional_info h2 {
+color: #fff;
+}
+
+.get_in_touch{
+background: transparent url(../images/skin1/button_get_in_touch.png) no-repeat top left;
+}
+
+.get_in_touch:hover{
+background: transparent url(../images/skin1/button_get_in_touch.png) no-repeat bottom left;
+}
+
+/*********************************************************************************************************
+4.) Content Area: 
+**********************************************************************************************************/	
+.entry-head{
+color:#def;
+}
+
+.entry li {
+/*border-bottom:1px solid #ddd;*/
+}
+
+.entry ul, .entry ol {
+/*border-top:1px solid #ddd;*/
+}
+
+
+
+
+/*********************************************************************************************************
+5.) Sidebar area
+**********************************************************************************************************/	
+.widget li, .widget_categories li, .widget_pages li, .widget_archive li , .widget_recent_entries li, li.recentcomments, .widget_meta li{
+border-bottom:1px solid #ccc;
+}
+
+.widget ul, .widget ol {
+border-top: 1px solid #ccc;
+}
+
+#latest_news {
+border-top: 0;
+}
+
+#top #latest_news a:hover, .widget a:hover{
+background-color: rgb(0,63,87);
+color:#fff;
+}
+
+.meta_sub{
+border-right:1px solid #ccc;
+}
+
+/*generic*/
+blockquote {
+color:#eee;
+}
+
+blockquote {
+border-left:3px solid #ccc;
+}
+.box strong{
+color:#666;
+}
+
+.more-link {
+background:transparent url(../images/skin1/dot.png) no-repeat scroll 0px 6px;
+color:#def;
+}
+
+/*generic color*/
+
+h1 a, h2 a, h3 a, h4 a, h5 a h6 a{
+color: rgb(0,63,87);
+}
+
+a{
+color:#fff;
+}
+
+a:hover{
+color:rgb(0,63,87);
+}
+
+#top a:hover img{
+border:1px solid rgb(0,63,87);
+}
+
+h1,h2,h3,h4,h5,h6, legend{
+/*color:#5A5A5A;*/
+color: rgb(0,63,87);
+}
+
+.meta{
+color:#def;
+}
+	
+
+
+	
+/*CONTACT FORM*/	
+.valid .text_input, .valid .text_area{border:1px solid #70A41B;} /*#70A41B*/
+.error .text_input, .error .text_area{border:1px solid #EE2A00;}
+.ajax_alert .text_input, .ajax_alert .text_area{border:1px solid #ffb628;}
+
+
+.button, #s, .text_input, .text_area, textarea, #commentform input{
+	border:1px solid #ababab;
+	color:#666;
+	}
+
+
+.button, #send, #top #submit{
+	border:1px solid #ababab;
+	background-color:#ddd;
+	cursor:pointer;
+	color:#000;
+	font-weight:bold;
+	font-size:13px;
+	}
+	
+.button:hover, #send:hover, #top #submit:hover{
+	background-color: rgb(0,63,87);
+	color:#fff;
+	left:1px;
+	}
+	
+	
+	
+#searchsubmit{
+background: transparent url(../images/skin1/button_search.png) no-repeat left top;
+}
+#searchsubmit:hover{
+background: transparent url(../images/skin1/button_search.png) no-repeat left bottom;
+}
+
+
+#footer{
+border-top:1px solid #ccc; 
+}
+
+/* ---------------------- Pagination -------------------*/
+
+.pagination span, .pagination a{
+	border:1px solid #ccc;
+	color:#888;
+	background:#FFFFFF url(../images/skin1/bg.jpg) no-repeat scroll top center;
+}
+
+.pagination a:hover{
+	border:1px solid #ccc;
+	color:#333;
+	background:#bcbcbc;
+}
+.pagination .current{
+	border:1px solid #ccc;
+	color:#333;
+	background-color:#c3c3c3;
+}
+
+#top .commentlist .odd{
+background: transparent url(../images/skin1/bg.jpg) repeat-x top center;
+}
